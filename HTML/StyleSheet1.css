@@ -1,0 +1,96 @@
+﻿body {
+    background-color: grey;
+}
+h1 {
+    font: 375 124px/0.8 'Great Vibes', Helvetica, sans-serif;
+    color: white;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+    opacity: 1;
+    transition: opacity 4.3s ease-in;
+    margin: 10px 360px 150px 360px;
+}
+h1:hover {
+    transition: opacity 3s ease-out;
+    opacity: 0;
+}
+.jasenet {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    width: 1450px;
+    height: 280px;
+}
+img {
+    width: 160px;
+    height: 215px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-style: solid;
+    border-width: 20px;
+    border-color: white;
+}
+
+p {
+    display: none;
+    padding: 20px;
+    background-color: lightgrey;
+    margin: 20px auto auto auto;
+    width: 1012px;
+    height: 100px;
+}
+
+img:hover{
+    border-color: lightgray;
+}
+div1:hover p {
+    display: block;    
+    position: absolute;
+    margin: 20px auto auto 199px;
+}
+
+div2:hover p {
+    display: block;
+    position: absolute;
+    margin: 20px auto auto -51px;
+}
+
+div3:hover p {
+    display: block;
+    position: absolute;
+    margin: 20px auto auto -301px;
+}
+
+div4:hover p {
+    display: block;
+    position: absolute;
+    margin: 20px auto auto -551px;
+}
+
+div5:hover p {
+    display: block;
+    position: absolute;
+    margin: 20px auto auto -801px;
+}
+
+div6:hover p {
+    display: block;
+    position: absolute;
+    margin: 20px auto auto -1051px;
+}
+hidden {
+    display: none;
+    text-align: center;
+}
+div0 {
+    display: block;
+    width: 100px;
+    height: 40px;
+    background-color: grey;
+}
+div0:hover hidden {
+    display: block;
+}
